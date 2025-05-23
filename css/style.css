@@ -1,12 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: beige;
-    color: violet;      
+    color: white;
+    width: 100vw;
+    height: 100vh;      
 }
 
 h1 {
-    color: black;
+    color: blue;
 }
 
 .title {
-    color: aqua;
+    color: brown;
+}
+
+.container {
+    background-color: black;
+    height: 50%;
+}
+
+.presentation {
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+
+}
+
+.button {
+    background-color: orange;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    border: 1px solid #93f;
+}
+
+.round {
+    border-radius: 50px;
 }
